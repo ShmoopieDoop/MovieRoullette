@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">Movie Roullette</string>
-    <string name="login_button">Login</string>
-    <string name="sign_up_button">Sign Up</string>
+    <string name="app_name">Movie Roulette</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">email</string>
+    <string name="confirmEmail">confirm email</string>
+    <string name="password">password</string>
+    <string name="next">Next</string>
 </resources>
