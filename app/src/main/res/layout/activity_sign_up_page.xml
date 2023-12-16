@@ -24,7 +24,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:id="@+id/textInputLayout"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
@@ -38,14 +38,14 @@
                 android:id="@+id/editTextTextEmailAddress"
                 android:hint="@string/email"
                 android:layout_margin="10dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:autofillHints="email"
                 android:ems="10" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:id="@+id/textInputLayout2"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
             app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
@@ -55,7 +55,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:inputType="textEmailAddress"
                 android:id="@+id/editTextTextEmailAddress2"
                 android:hint="@string/confirmEmail"
@@ -66,7 +66,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:id="@+id/textInputLayout3"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
             app:layout_constraintBottom_toTopOf="@+id/button"
