@@ -35,7 +35,7 @@
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:inputType="textEmailAddress"
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/sign_up_email_field"
                 android:hint="@string/email"
                 android:layout_margin="10dp"
                 android:layout_height="match_parent"
@@ -57,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="textEmailAddress"
-                android:id="@+id/editTextTextEmailAddress2"
+                android:id="@+id/sign_up_confirm_email_field"
                 android:hint="@string/confirmEmail"
                 android:layout_margin="10dp"
                 android:autofillHints="email"
@@ -69,14 +69,14 @@
             android:layout_height="80dp"
             android:id="@+id/textInputLayout3"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toTopOf="@+id/sign_up_next_button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
 
         <com.google.android.material.textfield.TextInputEditText
                 android:inputType="textPassword"
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/sign_up_password_field"
                 android:hint="@string/password"
                 android:layout_margin="10dp"
                 android:autofillHints="password"
@@ -88,7 +88,7 @@
 
     <Button
             android:text="@string/next"
-            android:id="@+id/button"
+            android:id="@+id/sign_up_next_button"
             style="@style/LargeButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
