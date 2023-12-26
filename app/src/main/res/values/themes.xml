@@ -2,11 +2,15 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MovieRoulette" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">@color/lightBackground</item>
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorOnPrimary">@color/lightTextColor</item>
+
     </style>
 
     <style name="Theme.MovieRoulette" parent="Base.Theme.MovieRoulette">
         <item name="editTextStyle">@style/EditTextStyle</item>
+
     </style>
-    
+
 </resources>
